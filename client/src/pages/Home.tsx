@@ -35,10 +35,10 @@ function HeroSection() {
             className="text-4xl md:text-7xl font-black text-white mb-8 tracking-tight leading-[1.1]"
             style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
           >
-            상상을 넘어선
+      The Art of Planning,
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#008069] to-[#00d4af]">
-              완벽한 순간의 디자인
+              The Craft of Realization
             </span>
           </h1>
           <p
