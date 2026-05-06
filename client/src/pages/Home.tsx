@@ -35,10 +35,10 @@ function HeroSection() {
             className="text-4xl md:text-7xl font-black text-white mb-8 tracking-tight leading-[1.1]"
             style={{ fontFamily: "'Noto Sans KR', sans-serif" }}
           >
-            Art of Planning,
+      The Art of Planning,
             <br />
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#008069] to-[#00d4af]">
-              Technology of Realization
+              The Craft of Realization
             </span>
           </h1>
           <p
