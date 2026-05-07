@@ -688,10 +688,12 @@ ${input.message}`
 // server/_core/context.ts
 async function createContext(opts) {
   let user = null;
-  try {
-    user = await sdk.authenticateRequest(opts.req);
-  } catch (error) {
-    user = null;
+  if (ENV.oAuthServerUrl) {
+    try {
+      user = await sdk.authenticateRequest(opts.req);
+    } catch (error) {
+      user = null;
+    }
   }
   return {
     req: opts.req,
